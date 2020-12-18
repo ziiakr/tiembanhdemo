@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Shopping Cart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="stylecart.css" rel="stylesheet" />
+    <link href="navbarstyle.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="overlay">
+
+            <nav>
+                <img src="images/logo.png" />
+                <ul>
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="#">GIỚI THIỆU</a></li>
+                    <li><a href="#">TIN TỨC</a></li>
+                    <li><a href="#">SẲN PHẨM</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                    <li><a href="#">HƯỚNG DẪN MUA HÀNG</a></li>
+                    <li><span class="ti-search" ></span></li>
+                    <li><a href="login-register.html"><span class="ti-user"></span></a></li>
+                    <li><span class="ti-shopping-cart"></span></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div class="product-container">
+        <div class="product-header">
+            <h5 class="product-title">PRODUCT</h5>
+            <h5 class="price">PRICE</h5>
+            <h5 class="quantity">QUANTITY</h5>
+            <h5 class="total">TOTAL</h5>
+        </div>
+        <div class="products">
+
+        </div>
+
+        <button type="button" class="payment" onclick="ThanhToan()">
+            Thanh toán
+        </button>
+
+
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script>
+        function ThanhToan() {
+            alert("Thanh toán thành công");
+        }
+
+
+
+    </script>
+
+
+</body>
+</html>
